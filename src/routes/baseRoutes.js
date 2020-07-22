@@ -1,0 +1,5 @@
+export const baseRoutes = [
+  {
+    path,
+  },
+];

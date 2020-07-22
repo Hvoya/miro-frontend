@@ -1,0 +1,2 @@
+export const CHANGE_LANG_TO_RU = 'CHANGE_LANG_TO_RU';
+export const CHANGE_LANG_TO_EN = 'CHANGE_LANG_TO_RU';
