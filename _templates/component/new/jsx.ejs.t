@@ -1,11 +1,11 @@
 ---
-to: src/components/<%= type %>s/<%= Name %>/<%= Name %>.jsx
+to: src/components/<%= type %>s/<%= Name %><%= suffix %>/<%= Name %><%= suffix %>.jsx
 ---
 
 import React from 'react';
 
-const <%= Name %> = () => {
+const <%= Name %><%= suffix %> = () => {
   return <div />;
 };
 
-export default React.memo(<%= Name %>);
+export default React.memo(<%= Name %><%= suffix %>);

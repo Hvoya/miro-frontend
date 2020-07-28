@@ -1,5 +1,5 @@
-import ruDict from './ru.json';
-import enDict from './en.json';
+import ruDict from './ru';
+import enDict from './en';
 
 export const ru = 'ru';
 export const en = 'en';

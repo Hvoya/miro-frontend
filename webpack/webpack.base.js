@@ -14,7 +14,7 @@ const analyzeMode = !!process.env.analyze;
 module.exports = {
   ...entryOutput(),
   module: {
-    rules: [getLintPreset(), getJsPreset(), getCssPreset(false), getFilePreset()],
+    rules: [getLintPreset(), getJsPreset(), getCssPreset(), getFilePreset()],
   },
   plugins: getBasePlugins(analyzeMode),
   devServer: getDevServer(),

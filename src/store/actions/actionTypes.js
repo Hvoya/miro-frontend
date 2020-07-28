@@ -1,2 +1,7 @@
 export const CHANGE_LANG_TO_RU = 'CHANGE_LANG_TO_RU';
 export const CHANGE_LANG_TO_EN = 'CHANGE_LANG_TO_RU';
+export const TOGGLE_LANG = 'TOGGLE_LANG';
+
+export const CHANGE_THEME = 'CHANGE_THEME';
+
+export const TOGGLE_NAVIGATION = 'TOGGLE_NAVIGATION';

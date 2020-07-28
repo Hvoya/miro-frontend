@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, memo, useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { langDicts } from '@/lang';
 
@@ -15,4 +15,4 @@ const LangProvider = ({ children }) => {
   return <langContext.Provider value={dict}>{children}</langContext.Provider>;
 };
 
-export default LangProvider;
+export default memo(LangProvider);

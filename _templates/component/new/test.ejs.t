@@ -1,13 +1,14 @@
 ---
-to: src/components/<%= type %>s/<%= Name %>/<%= Name %>.spec.jsx
+to: src/components/<%= type %>s/<%= Name %><%= suffix %>/<%= Name %><%= suffix %>.spec.jsx
 ---
 
+import React from 'react';
 import { shallow } from 'enzyme';
 
-import <%= Name %> from '/<%= Name %>.jsx';
+import <%= Name %><%= suffix %> from './<%= Name %><%= suffix %>.jsx';
 
-describe('Test for <%= Name %> component', () => {
+describe('Test for <%= Name %><%= suffix %>', () => {
   it('', () => {
-    const wrapper = shallow(<<%= Name %> />);
+    const wrapper = shallow(<<%= Name %><%= suffix %> />);
   });
 });

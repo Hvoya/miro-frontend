@@ -1,12 +1,12 @@
 import React from 'react';
 import { renderRoutes } from 'react-router-config';
 
-import NavigationController from '@/components/containers/NavigationController';
+import NavigationContainer from 'containers/NavigationContainer';
 
 const BaseTemplate = ({ route }) => {
   return (
     <div>
-      <NavigationController />
+      <NavigationContainer />
       {renderRoutes(route.routes)}
     </div>
   );
