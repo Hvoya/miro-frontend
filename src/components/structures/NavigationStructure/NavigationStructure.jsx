@@ -6,8 +6,8 @@ import { SRoot } from './Atoms';
 const openWidth = 280;
 const closedWidth = 88;
 
-const NavigationContainerStructure = ({ children, isOpen, onToggle }) => {
-  const props = useSpring({ width: isOpen ? openWidth : closedWidth, config: config.wobbly });
+const NavigationContainerStructure = ({ children, open, onToggle }) => {
+  const props = useSpring({ width: open ? openWidth : closedWidth, config: config.wobbly });
 
   return (
     <SRoot onMouseOver={onToggle} onMouseOut={onToggle} style={props}>

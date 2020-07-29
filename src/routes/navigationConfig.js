@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   QuestionOutlined,
   RiseOutlined,
@@ -13,32 +14,32 @@ export default [
   {
     to: paths.about,
     langPath: 'about',
-    icon: QuestionOutlined,
+    icon: <QuestionOutlined style={{ fontSize: '23px' }} />,
   },
   {
     to: paths.opportunities,
     langPath: 'opportunities',
-    icon: RiseOutlined,
+    icon: <RiseOutlined style={{ fontSize: '21px' }} />,
   },
   {
     to: paths.resources,
     langPath: 'resources',
-    icon: BookOutlined,
+    icon: <BookOutlined style={{ fontSize: '20px' }} />,
   },
   {
     to: paths.projects,
     langPath: 'projects',
-    icon: BuildOutlined,
+    icon: <BuildOutlined style={{ fontSize: '21px' }} />,
   },
   {
     to: outerPaths,
     outer: true,
     langPath: 'community',
-    icon: TeamOutlined,
+    icon: <TeamOutlined style={{ fontSize: '21px' }} />,
   },
   {
     to: paths.buy,
     langPath: 'buy',
-    icon: ShoppingCartOutlined,
+    icon: <ShoppingCartOutlined style={{ fontSize: '23px' }} />,
   },
 ];

@@ -11764,7 +11764,7 @@ rc-steps@~4.0.1:
     classnames "^2.2.3"
     rc-util "^5.0.1"
 
-rc-switch@~3.2.0:
+rc-switch@^3.2.0, rc-switch@~3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/rc-switch/-/rc-switch-3.2.0.tgz#aa36bb417409ff4cc7d542ec4381cb5d87cfedc1"
   integrity sha512-WQZnRrWZ+KGh4Cd98FpP1ZgvMmebctoHzKAO2n1Xsry1FQBSGgIw4rQJRxET31VS/dR1LIKb5md/k0UzcXXc0g==

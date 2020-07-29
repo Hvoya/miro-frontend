@@ -2,11 +2,11 @@ import React, { memo } from 'react';
 
 import NavListElement from '../NavListElement/NavListElement';
 
-const NavList = ({ config }) => {
+const NavList = ({ config, open }) => {
   return (
     <>
       {config.map((item) => (
-        <NavListElement key={item.to} {...item} />
+        <NavListElement open={open} key={item.to} {...item} />
       ))}
     </>
   );

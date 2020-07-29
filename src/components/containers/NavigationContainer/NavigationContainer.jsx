@@ -18,8 +18,8 @@ const NavigationContainer = () => {
   const localizedConfig = navigationConfig.map((item) => ({ ...item, text: lang[item.langPath] }));
 
   return (
-    <NavigationStructure onToggle={handleToggleNavbar} isOpen={isNavbarOpen}>
-      <Navbar config={localizedConfig} />
+    <NavigationStructure onToggle={handleToggleNavbar} open={isNavbarOpen}>
+      <Navbar open={isNavbarOpen} config={localizedConfig} />
     </NavigationStructure>
   );
 };
